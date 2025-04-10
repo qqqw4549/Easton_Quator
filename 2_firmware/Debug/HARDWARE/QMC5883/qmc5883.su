@@ -1,0 +1,2 @@
+../HARDWARE/QMC5883/qmc5883.c:20:6:QMC5883_Init	16	static
+../HARDWARE/QMC5883/qmc5883.c:41:6:QMC5883_dataGet	8	static
