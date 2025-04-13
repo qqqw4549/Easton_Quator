@@ -1,2 +1,0 @@
-../HARDWARE/QMI8658/qmi8658.c:32:6:QMI8658_Init	16	static
-../HARDWARE/QMI8658/qmi8658.c:57:6:QMI8658_dataGet	8	static

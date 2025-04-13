@@ -1,0 +1,7 @@
+../Aircraft/src/sensor.c:62:7:invSqrt	1
+../Aircraft/src/sensor.c:73:6:Init_AccGryoFilter	2
+../Aircraft/src/sensor.c:83:6:GyroBufferInit	1
+../Aircraft/src/sensor.c:89:9:imu_FillGyroBuffer	2
+../Aircraft/src/sensor.c:106:9:imu_GetGyroBias	13
+../Aircraft/src/sensor.c:152:13:applyAxis3fLpf	1
+../Aircraft/src/sensor.c:160:6:sensorsTask	6
