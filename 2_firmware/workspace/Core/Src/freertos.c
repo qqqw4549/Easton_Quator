@@ -22,7 +22,7 @@
 #include "task.h"
 #include "main.h"
 #include "cmsis_os.h"
-
+#include "sensor.h"
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
@@ -123,6 +123,9 @@ void StartDefaultTask(void const * argument)
   /* USER CODE BEGIN StartDefaultTask */
   /* Infinite loop */
 	//int p=-90,r=-90,y=-90;
+    //1. init sensors..
+    sensorsTask(); 
+
 	  for(;;)
 	  {
 		osDelay(1000);

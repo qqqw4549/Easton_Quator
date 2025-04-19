@@ -35,7 +35,7 @@ void QMC5883_Init()
         uChipID = i2c_ReadReg(QMC5883_DEV,0x0D); // Read ID
         HAL_Delay(200);        // device check
     }
-    printf("QMC5883 check Pass!:deviceID = 0x%x \r\n",uChipID);
+    printf("QMC5883 check Pass!\r\n");
 }
 
 void QMC5883_dataGet(void)

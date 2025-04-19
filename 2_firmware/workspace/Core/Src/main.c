@@ -123,9 +123,9 @@ int main(void)
 	  HAL_Delay(200);
   }
 
-  QMC5883_Init();
+  //QMC5883_Init();
   //SPL06_Init();
-  QMI8658_Init();
+  //QMI8658_Init();
   /* USER CODE END 2 */
 
   /* Call init function for freertos objects (in cmsis_os2.c) */
@@ -145,22 +145,6 @@ int main(void)
     /* USER CODE BEGIN 3 */
 	  HAL_Delay(800);
 	  printf("hello world!\r\n");
-
-#if 0
-	  printf("123\r\n");
-		uint8_t writedata[1] = {0xA2};
-		uint8_t readdata[1] = {0};
-	  //HAL_I2C_Mem_Write_DMA(&hi2c1 ,0x6a, 0x0a, 1 , &writedata , 1);
-	  HAL_I2C_Mem_Write_DMA(&hi2c1 ,0xd5, 0x0a, 1 , &writedata , 1);
-	  HAL_Delay(200);
-	  while(readdata[0] != 0x5 )
-	  {
-		  HAL_Delay(200);
-		  HAL_I2C_Mem_Read_DMA(&hi2c1 ,0xd5, 0x0, 1 , &readdata , 1);
-		  printf("0x%x\r\n",readdata[0]);
-	  }
-	  printf("passed\r\n");
-#endif
   }
   /* USER CODE END 3 */
 }

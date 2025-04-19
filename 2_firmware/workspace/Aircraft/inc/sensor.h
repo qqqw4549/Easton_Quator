@@ -58,7 +58,7 @@ extern struct stSensorRaw gstSenSorRaw;
 float invSqrt(float x);
 uint8_t imu_GetGyroBias(struct stGyro GyroRaw);
 void GyroBufferInit(void);
-void sensorsTask(void *pvParameters);
+void sensorsTask(void);
 void Init_AccGryoFilter(void);
 #endif
 

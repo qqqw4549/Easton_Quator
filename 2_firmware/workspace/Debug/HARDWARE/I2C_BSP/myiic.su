@@ -1,3 +1,3 @@
 ../HARDWARE/I2C_BSP/myiic.c:4:6:i2c_WriteReg	32	static
-../HARDWARE/I2C_BSP/myiic.c:9:9:i2c_ReadReg	24	static
-../HARDWARE/I2C_BSP/myiic.c:14:6:i2c_ReadMuti	24	static
+../HARDWARE/I2C_BSP/myiic.c:11:9:i2c_ReadReg	32	static
+../HARDWARE/I2C_BSP/myiic.c:16:6:i2c_ReadMuti	32	static

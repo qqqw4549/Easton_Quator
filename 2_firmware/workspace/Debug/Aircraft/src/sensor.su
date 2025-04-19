@@ -4,4 +4,4 @@
 ../Aircraft/src/sensor.c:89:9:imu_FillGyroBuffer	16	static
 ../Aircraft/src/sensor.c:106:9:imu_GetGyroBias	48	static
 ../Aircraft/src/sensor.c:152:13:applyAxis3fLpf	16	static
-../Aircraft/src/sensor.c:160:6:sensorsTask	64	static
+../Aircraft/src/sensor.c:160:6:sensorsTask	80	static

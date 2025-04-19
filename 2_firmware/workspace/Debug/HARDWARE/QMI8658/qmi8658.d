@@ -27,7 +27,8 @@ HARDWARE/QMI8658/qmi8658.o: ../HARDWARE/QMI8658/qmi8658.c \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h \
- ../Core/Inc/main.h ../Core/Inc/usart.h
+ ../Core/Inc/main.h ../Core/Inc/usart.h \
+ C:/Users/23886/Desktop/Easton_Quator/2_firmware/workspace/Aircraft/inc/sensor.h
 ../HARDWARE/QMI8658/qmi8658.h:
 C:/Users/23886/Desktop/Easton_Quator/2_firmware/workspace/HARDWARE/I2C_BSP/myiic.h:
 ../Core/Inc/i2c.h:
@@ -59,3 +60,4 @@ C:/Users/23886/Desktop/Easton_Quator/2_firmware/workspace/HARDWARE/I2C_BSP/myiic
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h:
 ../Core/Inc/main.h:
 ../Core/Inc/usart.h:
+C:/Users/23886/Desktop/Easton_Quator/2_firmware/workspace/Aircraft/inc/sensor.h:
